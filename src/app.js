@@ -37,7 +37,7 @@ app.get('',(req, res )=>{
 
 app.get('/help', (req,res)=>{
 
-    res.render('index' , {
+    res.render('help' , {
         title : 'Help!!!!!! ',
         author : 'Garima De',
         helpText : 'This page is designed to help'
@@ -46,7 +46,7 @@ app.get('/help', (req,res)=>{
 
 
 app.get('/about', (req,res)=>{
-    res.render('index' , {
+    res.render('about' , {
         title : 'About page',
         author : 'Garima De'
     })
