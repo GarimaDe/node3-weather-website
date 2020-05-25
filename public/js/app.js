@@ -1,4 +1,5 @@
 
+
 //Fetch data from URL and then run the function
 fetch('http://puzzle.mead.io/puzzle').then((response)=>{
     response.json().then((data)=>{
